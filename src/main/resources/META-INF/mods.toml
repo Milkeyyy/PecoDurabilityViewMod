@@ -9,6 +9,9 @@ displayName="PecoDurabilityView"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://github.com/Milkeyyy/PecoDurabilityViewMod"
 authors="Milkeyyy"
+description='''
+What is the durability of this tool?
+'''
 
 [[dependencies.pecodurabilityview]]
     modId="minecraft"
