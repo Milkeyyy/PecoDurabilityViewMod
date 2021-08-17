@@ -8,6 +8,7 @@ version="1.0.0+210801"
 displayName="PecoDurabilityView"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://github.com/Milkeyyy/PecoDurabilityViewMod"
+updateJSONURL="https://raw.githubusercontent.com/Milkeyyy/PecoDurabilityViewMod/master/update.json"
 authors="Milkeyyy"
 description='''
 What is the durability of this tool?

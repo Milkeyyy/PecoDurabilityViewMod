@@ -120,6 +120,7 @@
     "license": "Copyright 2021 Milkeyyy",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "updateURL": "https://raw.githubusercontent.com/Milkeyyy/PecoDurabilityViewMod/master/update.json",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
