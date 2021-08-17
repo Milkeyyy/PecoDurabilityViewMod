@@ -1,0 +1,70 @@
+{
+  "_fv": 24,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:HIMHToolDurabilityOverlayTitleText>",
+          "color": {
+            "value": -5921371,
+            "falpha": 0.0
+          },
+          "name": "<VAR:HIMHToolDurabilityOverlayTitleText>",
+          "x": 6,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:HIOHToolDurabilityOverlayTitleText>",
+          "color": {
+            "value": -5921371,
+            "falpha": 0.0
+          },
+          "name": "<VAR:HIOHToolDurabilityOverlayTitleText>",
+          "x": 6,
+          "y": 215
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:HIMHToolDurabilityOverlayText>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "<VAR:HIMHToolDurabilityOverlayText>",
+          "x": 6,
+          "y": 206
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:HIOHToolDurabilityOverlayText>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "<VAR:HIOHToolDurabilityOverlayText>",
+          "x": 6,
+          "y": 224
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

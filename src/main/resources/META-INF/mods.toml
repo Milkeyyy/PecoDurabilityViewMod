@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Copyright 2021 Milkeyyy"
+
+[[mods]]
+modId="pecodurabilityview"
+version="1.0.0+210801"
+displayName="PecoDurabilityView"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://github.com/Milkeyyy/PecoDurabilityViewMod"
+authors="Milkeyyy"
+
+[[dependencies.pecodurabilityview]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

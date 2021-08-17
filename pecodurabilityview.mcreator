@@ -1,0 +1,132 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "DurabilityView",
+      "type": "overlay",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "durability_view"
+    },
+    {
+      "name": "UpdateDurabilityView",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "update_durability_view",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UpdateDurabilityValue",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "update_durability_value",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "HIMHToolDurabilityValue",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "HIMHToolDurabilityOverlayText",
+      "type": "string",
+      "scope": "player_lifetime",
+      "value": "\"\""
+    },
+    {
+      "name": "HIOHToolDurabilityValue",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "HIOHToolDurabilityOverlayText",
+      "type": "string",
+      "scope": "player_lifetime",
+      "value": "\"\""
+    },
+    {
+      "name": "HIMHToolDurabilityMaxValue",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "HIOHToolDurabilityMaxValue",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "HIMHToolDurabilityOverlayTitleText",
+      "type": "string",
+      "scope": "player_lifetime",
+      "value": "\"\""
+    },
+    {
+      "name": "HIOHToolDurabilityOverlayTitleText",
+      "type": "string",
+      "scope": "player_lifetime",
+      "value": "\"\""
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "text.overlay.main_hand_durability_title": "Main Hand",
+      "text.overlay.off_hand_durability_title": "Off Hand"
+    },
+    "ja_jp": {
+      "text.overlay.main_hand_durability_title": "メインハンド",
+      "text.overlay.off_hand_durability_title": "オフハンド"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "pecodurabilityview",
+    "modName": "PecoDurabilityView",
+    "version": "1.0.0+210801",
+    "author": "Milkeyyy",
+    "websiteURL": "https://github.com/Milkeyyy/PecoDurabilityViewMod",
+    "license": "Copyright 2021 Milkeyyy",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "mod.milkeyyy.pecodurabilityview",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100233614
+}
